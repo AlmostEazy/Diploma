@@ -1,0 +1,74 @@
+@import "../../common/common-colors";
+@import "../../common/fonts";
+
+$dot-size: 1rem;
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .title {
+    color: var(--main-text);
+
+    @include font-heading-heading-2-bold;
+
+    &.profile {
+      color: var(--item-subtitle);
+
+      @include font-body-caption-1;
+    }
+
+    &.main {
+      margin-top: 8px;
+
+      &:before {
+        display: flex;
+        justify-content: center;
+        content: "o";
+        line-height: 0.85rem;
+        position: absolute;
+        width: $dot-size;
+        height: $dot-size;
+        left: calc(-1rem - $dot-size / 2);
+        border-radius: 50%;
+        background: var(--dot-color);
+      }
+    }
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 4px;
+    margin: 16px 0;
+    clip-path: inset(0% round 10px);
+
+    &.experience {
+      display: flex;
+    }
+
+    &.skills {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    &.education {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    &.tools {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+}

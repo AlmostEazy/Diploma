@@ -1,0 +1,48 @@
+@import "../../common/common-colors";
+@import "../../common/fonts";
+
+.container {
+  display: inline-flex;
+  flex-direction: column;
+  width: auto;
+  padding: 0.5rem;
+  gap: 0.25rem;
+
+  background-color: var(--item-background);
+
+  .top {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    img {
+      border-radius: 4px;
+      width: 3.5rem;
+      height: 1.5rem;
+    }
+
+    .title {
+      color: var(--item-title);
+
+      @include font-body-caption-1-bold;
+    }
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .description {
+      color: var(--item-title);
+
+      @include font-body-body-2-bold;
+    }
+
+    .date {
+      color: var(--item-subtitle);
+
+      @include font-body-caption-2;
+    }
+  }
+}

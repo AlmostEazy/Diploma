@@ -1,0 +1,141 @@
+@mixin font-heading-hero {
+  // Heading/Hero //
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 83.33%;
+  text-decoration: none;
+}
+
+@mixin font-heading-heading-1-bold {
+  // Heading/Heading 1 bold //
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 125%;
+  text-decoration: none;
+}
+
+@mixin font-heading-heading-1 {
+  // Heading/Heading 1 //
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 125%;
+  text-decoration: none;
+}
+
+@mixin font-heading-heading-2-bold {
+  // Heading/Heading 2 bold //
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 133.33%;
+  text-decoration: none;
+}
+
+@mixin font-heading-heading-2 {
+  // Heading/Heading 2 //
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 133.33%;
+  text-decoration: none;
+}
+
+@mixin font-heading-heading-3-bold {
+  // Heading/Heading 3 bold //
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 0.5625rem;
+  line-height: 133.33%;
+  text-decoration: none;
+}
+
+@mixin font-heading-heading-3 {
+  // Heading/Heading 3 //
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 0.5625rem;
+  line-height: 133.33%;
+  text-decoration: none;
+}
+
+@mixin font-body-body-1 {
+  // Body/Body 1 //
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 0.5rem;
+  line-height: 125%;
+  text-decoration: none;
+}
+
+@mixin font-body-body-1-bold {
+  // Body/Body 1 bold //
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 0.5rem;
+  line-height: 125%;
+  text-decoration: none;
+}
+
+@mixin font-body-body-2 {
+  // Body/Body 2 //
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 0.4375rem;
+  line-height: 128.57%;
+  text-decoration: none;
+}
+
+@mixin font-body-body-2-bold {
+  // Body/Body 2 bold //
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 0.4375rem;
+  line-height: 128.57%;
+  text-decoration: none;
+}
+
+@mixin font-body-caption-1 {
+  // Body/Caption 1 //
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 0.375rem;
+  line-height: 133.33%;
+  text-decoration: none;
+}
+
+@mixin font-body-caption-1-bold {
+  // Body/Caption 1 bold //
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 0.375rem;
+  line-height: 133.33%;
+  text-decoration: none;
+}
+
+@mixin font-body-caption-2 {
+  // Body/Caption 2 //
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  font-size: 0.3125rem;
+  text-decoration: none;
+}
+
+@mixin font-body-caption-2-bold {
+  // Body/Caption 2 bold //
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 0.3125rem;
+  text-decoration: none;
+}
+
+@mixin font-body-hairline-1 {
+  // Body/Hairline 1 //
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 0.375rem;
+  line-height: 133.33%;
+  text-decoration: none;
+}

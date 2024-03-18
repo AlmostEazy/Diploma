@@ -1,0 +1,26 @@
+@import "../../../common/common-colors";
+@import "../../../common/fonts";
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  .text {
+    img {
+      width: 0.625rem;
+      height: 0.625rem;
+    }
+
+    .quote {
+      color: var(--contacts-subtitle);
+
+      @include font-heading-heading-3-bold;
+    }
+  }
+
+  .author {
+    color: var(--item-title);
+
+    @include font-body-caption-1;
+  }
+}

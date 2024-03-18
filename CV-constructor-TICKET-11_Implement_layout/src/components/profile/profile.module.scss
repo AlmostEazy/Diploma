@@ -1,0 +1,28 @@
+@import "../../common/common-colors";
+@import "../../common/fonts";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  img {
+    border-radius: 100px;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .name {
+    color: var(--main-text);
+
+    @include font-heading-heading-1-bold;
+  }
+
+  .speciality {
+    background: var(--speciality-text);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    @include font-heading-heading-2-bold;
+  }
+}

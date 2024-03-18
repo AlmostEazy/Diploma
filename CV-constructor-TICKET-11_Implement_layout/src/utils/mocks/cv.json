@@ -1,0 +1,199 @@
+{
+  "profile": {
+    "info": {
+      "photoLink": "https://images11.esquire.ru/upload/custom/9b5/9b5f5bdf2fb8584d9a3f4ab49654713e.jpg",
+      "name": "John",
+      "surname": "Smith",
+      "speciality": "Full-Stack Designer",
+      "quote": {
+        "text": "What has the world come to when you can’t even trust a program?",
+        "author": "Agent Smith"
+      }
+    },
+    "contacts": [
+      {
+        "title": "Email",
+        "link": "john.smith@gmail.com",
+        "iconType": "email"
+      },
+      { "title": "Website", "link": "https://aldesign.it", "iconType": "link" },
+      { "title": "Phone", "link": "(+39) 333 0123 765", "iconType": "phone" },
+      { "title": "Address", "link": "Bologna, Italy", "iconType": "address" }
+    ],
+    "socials": [
+      {
+        "title": "Instagram",
+        "link": "@johnsmith.design",
+        "iconType": "instagram"
+      },
+      {
+        "title": "Dribble",
+        "link": "@johnsmith.design",
+        "iconType": "dribble"
+      },
+      {
+        "title": "Twitter",
+        "link": "@johnsmith.design",
+        "iconType": "twitter",
+        "iconLink":
+          "https://e7.pngegg.com/pngimages/892/42/png-clipart-computer-icons-desktop-social-media-logo-twitter-internet-logos.png"
+      },
+      {
+        "title": "LinkedIn",
+        "link": "johnsmith-design",
+        "iconType": "linkedin",
+        "iconLink":
+          "https://static-00.iconduck.com/assets.00/linkedin-icon-1024x1024-net2o24e.png"
+      }
+    ],
+    "languages": [
+      { "title": "Italian", "level": "Native", "country": "IT" },
+      { "title": "Greek", "level": "Native", "country": "GR" },
+      { "title": "English", "level": "Professional working", "country": "GB" },
+      { "title": "Spanish", "level": "", "country": "ES" }
+    ]
+  },
+  "content": {
+    "experience": [
+      {
+        "speciality": "VR designer",
+        "company": "Meta",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque facilisis consectetur mauris, nec vestibulum felis suscipit at. Aliquam faucibus risus justo. Quisque non neque dolor.",
+        "isPresent": true,
+        "dateStart": "",
+        "dateEnd": "",
+        "place": "Menlo Park, Calinfornia"
+      },
+      {
+        "speciality": "Product designer",
+        "company": "Apple",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque facilisis consectetur mauris, nec vestibulum felis suscipit at. Aliquam faucibus risus justo. Quisque non neque dolor.",
+        "isPresent": false,
+        "dateStart": "Jul 20",
+        "dateEnd": "Jan 2022",
+        "place": "Cupertino, California"
+      },
+      {
+        "speciality": "UX Designer",
+        "company": "Tesla",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque facilisis consectetur mauris, nec vestibulum felis suscipit at. Aliquam faucibus risus justo. Quisque non neque dolor.",
+        "isPresent": false,
+        "dateStart": "Oct 2015",
+        "dateEnd": "Mar 2020",
+        "place": "Austin, Texas"
+      }
+    ],
+    "skills": {
+      "design": [
+        "User Experience",
+        "Design System",
+        ["Web Design", "Mobile Design"],
+        ["Wireframing", "Prototyping", "Testing"]
+      ],
+      "development": [
+        "ReactJS",
+        ["ChakraUI;Emotion;Framer"],
+        ["Typescript", "NextJS"],
+        ["HTML", "JS", "CSS"],
+        ["Git;Databases;Docker"]
+      ]
+    },
+    "education": [
+      {
+        "iconType": "memo",
+        "iconLink": "",
+        "title": "Memorisely",
+        "description": "Build a design system",
+        "date": "Oct 2021"
+      },
+      {
+        "iconType": "ux",
+        "iconLink": "",
+        "title": "UX acadamy",
+        "description": "UX Design certificate",
+        "date": "Feb 2020"
+      },
+      {
+        "iconType": "course",
+        "iconLink": "",
+        "title": "Coursera",
+        "description": "Usera reasearch course",
+        "date": "Dec 2019"
+      }
+    ],
+    "tools": [
+      {
+        "iconType": "figma",
+        "iconLink": "",
+        "title": "Figma",
+        "description": " UI Design, prototyping "
+      },
+      {
+        "iconType": "maze",
+        "iconLink": "",
+        "title": "Maze",
+        "description": "Product research"
+      },
+      {
+        "iconType": "spline",
+        "iconLink": "",
+        "title": "Spline",
+        "description": "3D design"
+      },
+      {
+        "iconType": "zeplin",
+        "iconLink": "",
+        "title": "Zeplin",
+        "description": "Design workspace"
+      },
+      {
+        "iconType": "vector",
+        "iconLink": "",
+        "title": "Vectornator",
+        "description": "Graphic Design"
+      },
+      {
+        "iconType": "vscode",
+        "iconLink": "",
+        "title": "VS Code",
+        "description": "Mockups"
+      },
+      {
+        "iconType": "rotato",
+        "iconLink": "",
+        "title": "Rotato",
+        "description": "Code editor"
+      },
+      {
+        "iconType": "xcode",
+        "iconLink": "",
+        "title": "XCode",
+        "description": "iOS development"
+      },
+      {
+        "iconType": "notion",
+        "iconLink": "",
+        "title": "Notion",
+        "description": "Project managment"
+      }
+    ],
+    "latest": [
+      {
+        "iconType": "project1",
+        "iconLink": "",
+        "title": "Powerful Design System",
+        "description": "Figma UI Kit and Design System targeting a wide variety of use cases.",
+        "link": "https//figma.com",
+        "skills": []
+      },
+      {
+        "iconType": "project2",
+        "iconLink": "",
+        "title": "Modern Website",
+        "description": "Powerful website + dashboard template for your next Chakra UI project.",
+        "link": "https://ui-8.net",
+        "skills": []
+      }
+    ]
+  }
+}

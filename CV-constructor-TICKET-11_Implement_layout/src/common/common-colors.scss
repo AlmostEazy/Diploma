@@ -1,0 +1,73 @@
+// В этом файле хранится 3 типа переменных для облегчения переключения между темами
+// Глобальные переменные с селектором * - эти переменные в дальнейшем используются в той или иной теме
+// Переменные светлой и тёмной тем, устанавливаемые по атрибуту data-theme
+
+* {
+  --white: #fff;
+  --primary-darkest: #170f2e;
+  --primary-darker: #312163;
+  --primary-dark: #5531a7;
+  --primary-default: #9251f7;
+  --primary-light: #c696fc;
+  --primary-lighter: #efe2f9;
+  --primary-lightest: #f8f2fc;
+  --secondary-darker: #1f2347;
+  --secondary-dark: #2a337e;
+  --secondary-default: #516cf7;
+  --secondary-light: #95aafb;
+  --secondary-lighter: #e1e7fe;
+  --secondary-lightest: #f5f7ff;
+  --gray-darkest: #232339;
+  --gray-darker: #2e2e48;
+  --gray-dark: #47516b;
+  --gray-default: #79819a;
+  --gray-light: #acb1c3;
+  --gray-lighter: #d9dfe8;
+  --gray-lightest: #e2e6ee;
+  --gray-lightest-2: #f7f9fc;
+  --status-info: #22c3f1;
+  --status-success-light: #e7fae5;
+  --status-success: #4ac06f;
+  --status-success-dark: #1f5c43;
+  --status-warning-light: #fefcbf;
+  --status-warning: #f4ce10;
+  --status-warning-dark: #857129;
+}
+
+*[data-theme="light"] {
+  --background-color: var(--white);
+  --dot-color: var(--white);
+  --dot-cirlce-color: var(--primary-dark);
+  --main-text: var(--gray-darker);
+  --item-background: var(--gray-lightest-2);
+  --item-present: var(--primary-lightest);
+  --item-title: var(--gray-darker);
+  --item-subtitle: var(--gray-default);
+  --contacts-subtitle: var(--gray-dark);
+  --experience-date: var(--gray-dark);
+  --experience-present: var(--primary-default);
+  --experience-badge-background: var(--primary-lighter);
+  --section-title: var(--gray-darker);
+  --design-skill-text: var(--primary-default);
+  --dev-skill-text: var(--secondary-default);
+  --speciality-text: linear-gradient(#a478e8, var(--secondary-default));
+}
+
+*[data-theme="dark"] {
+  --background-color: var(--gray-darkest);
+  --dot-color: var(--gray-darker);
+  --dot-cirlce-color: var(--primary-light);
+  --main-text: var(--gray-lightest);
+  --item-background: var(--gray-darker);
+  --item-present: var(--primary-darker);
+  --item-title: var(--gray-lightest);
+  --item-subtitle: var(--gray-light);
+  --contacts-subtitle: var(--gray-lighter);
+  --experience-date: var(--gray-lighter);
+  --experience-present: var(--primary-lighter);
+  --experience-badge-background: var(--primary-dark);
+  --section-title: var(--gray-lightest);
+  --design-skill-text: var(--primary-light);
+  --dev-skill-text: var(--secondary-light);
+  --speciality-text: linear-gradient(#a478e8, var(--secondary-default));
+}

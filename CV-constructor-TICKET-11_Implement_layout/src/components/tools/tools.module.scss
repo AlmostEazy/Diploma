@@ -1,0 +1,28 @@
+@import "../../common/common-colors";
+@import "../../common/fonts";
+
+.container {
+  display: flex;
+  padding: 8px;
+  background-color: var(--item-background);
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+
+  img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  .title {
+    color: var(--item-title);
+
+    @include font-body-body-2-bold;
+  }
+
+  .description {
+    color: var(--item-subtitle);
+
+    @include font-body-caption-2;
+  }
+}

@@ -1,0 +1,50 @@
+@import "../../common/common-colors";
+@import "../../common/fonts";
+
+.container {
+  display: flex;
+  padding: 0.5rem;
+  background-color: var(--item-background);
+
+  .skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    @include font-body-body-2-bold;
+
+    .divided {
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      width: 100%;
+
+      //div {
+      //  position: relative;
+      //
+      //  &:after {
+      //    position: absolute;
+      //    content: '';
+      //    width: 0.5px;
+      //    height: 100%;
+      //  }
+      //}
+    }
+
+    .list {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
+    &.variant1 {
+      color: var(--design-skill-text);
+    }
+
+    &.variant2 {
+      color: var(--dev-skill-text);
+    }
+  }
+}

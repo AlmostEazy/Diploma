@@ -1,0 +1,113 @@
+@import "../../common/common-colors";
+@import "../../common/fonts";
+
+$height: 2rem;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+
+  position: relative;
+
+  padding: 8px 12px;
+
+  background-color: var(--item-background);
+  transition: height 0.4s ease-in;
+  height: $height;
+
+  cursor: pointer;
+
+  &.present {
+    background-color: var(--item-present);
+  }
+
+  .content {
+    display: flex;
+    gap: 8px;
+    width: 100%;
+
+    img {
+      width: 2rem;
+      height: $height;
+    }
+
+    .main {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+
+      .left {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+
+        .speciality {
+          color: var(--item-subtitle);
+
+          @include font-body-body-2;
+        }
+
+        .company {
+          color: var(--section-title);
+
+          @include font-body-body-1-bold;
+        }
+      }
+
+      .right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 4px;
+
+        .present {
+          width: fit-content;
+          padding: 3px;
+          border-radius: 2px;
+
+          color: var(--experience-present);
+          background-color: var(--experience-badge-background);
+
+          @include font-body-caption-1;
+        }
+
+        .date {
+          color: var(--experience-date);
+
+          @include font-body-caption-1;
+        }
+
+        .place {
+          color: var(--item-subtitle);
+
+          @include font-body-caption-2;
+        }
+      }
+    }
+  }
+
+  .description {
+    position: absolute;
+    color: var(--section-title);
+    transform: translateY(0);
+    padding: 0 12px;
+    left: 0;
+    opacity: 0;
+
+    transition: all 0.4s ease-in;
+
+    @include font-body-body-1-bold;
+
+    &.expanded {
+      transform: translateY(100%);
+      opacity: 1;
+    }
+
+    @media screen and (max-width: 1024px) {
+      top: 5px;
+    }
+  }
+}
